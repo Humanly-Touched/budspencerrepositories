@@ -1,3 +1,3 @@
-module github.com/profe-ajedrez/budspencerrepositories
+module github.com/Humanly-Touched/budspencerrepositories
 
 go 1.17

@@ -1,7 +1,7 @@
 package repositoriy
 
 import (
-	"github.com/profe-ajedrez/budspencerrepositories/pkg/models"
+	"github.com/Humanly-Touched/budspencerrepositories/pkg/models"
 )
 
 // Repository interface with the contract to be implemented by
