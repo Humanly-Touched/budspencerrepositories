@@ -1,4 +1,4 @@
-package repositoriy
+package repository
 
 import (
 	"github.com/Humanly-Touched/budspencerrepositories/pkg/models"
