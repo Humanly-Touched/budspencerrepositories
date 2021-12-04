@@ -9,7 +9,7 @@ import (
 type Job interface {
 	Get(uuid string) (models.Job, error)
 	GetAll() ([]models.Job, error)
-	Create(job models.Job) (models.Job, error)
+	Create(message string) (models.Job, error)
 	Update(job models.Job) (models.Job, error)
 	Upsert(job models.Job) (models.Job, error)
 	Delete(uuid string) error

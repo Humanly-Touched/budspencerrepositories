@@ -9,7 +9,7 @@ import (
 type Worker interface {
 	Get(uuid string) (models.Worker, error)
 	GetAll() ([]models.Worker, error)
-	Create(job models.Worker) (models.Worker, error)
+	Create(host string, ip string, port int) (models.Worker, error)
 	Update(job models.Worker) (models.Worker, error)
 	Upsert(job models.Worker) (models.Worker, error)
 	Delete(uuid string) error
